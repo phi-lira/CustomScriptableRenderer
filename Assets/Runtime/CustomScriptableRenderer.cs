@@ -16,4 +16,12 @@ public class CustomScriptableRenderer : ScriptableRenderer
         // set a render target using ConfigureTarget these render textures will be bound as color and depth by default.
         ConfigureCameraTarget(BuiltinRenderTextureType.CameraTarget, BuiltinRenderTextureType.CameraTarget);
     }
+
+    public override void SetupLights(ScriptableRenderContext context, ref RenderingData renderingData)
+    {
+    }
+
+    public override void SetupCullingParameters(ref ScriptableCullingParameters cullingParameters, ref CameraData cameraData)
+    {
+    }
 }
