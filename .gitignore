@@ -4,3 +4,6 @@ Temp/
 .vs/
 *.csproj
 obj/
+.idea
+Logs
+UserSettings
